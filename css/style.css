@@ -1,22 +1,48 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(234, 229, 229);
+}
 .cabecalho{
     background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 60px;
+    height: 90px;
     position: absolute;
+    z-index: 2;
 }
 
 .topo{
     position: absolute;
     left: 0%;
-    width: auto;
-    height: 60px;
+    width: 220px;
+    z-index: 1;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+#texto-header{
+    color: white;
+    margin-left: 50px;
+    margin-top: -23px;
+}
+header{
+    background-color: rgb(48, 46, 46);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 90px;
+    z-index: 1;
 }
 
 .inicio{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
-    background-color: rgb(234, 229, 229);
+    
     position: absolute;
     top: 68px;
     width: 100%;
@@ -24,19 +50,12 @@
 }
 
 .terminal{
-    width: 50%;
+    width: 30%;
+
+    margin: 50px auto   
 }
 
-.terminal{
-    overflow: hidden;
-}
 
-.terminal img{
-    max-width: 100%;
-    -moz-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-}
 
 .terminal:hover{
     -moz-transform: scale(1.2);
