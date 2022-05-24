@@ -1,0 +1,54 @@
+body{
+    background-color: gray;
+    font-family: 'Roboto', sans-serif
+    /* <p class="objeto-a-flutuar">Olá, estou flutuando!</p>
+
+<style>
+.objeto-a-flutuar:hover {
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+.objeto-a-flutuar {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+</style> colocar a tag h1 escrito terminal em flutuando  */
+}
+
+div{
+    text-align: center;
+    margin: auto;
+    width: 900px;
+    height: 130px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+    margin: -20px;
+    /* fazer a alteracao de alinhamento com o position:relative */
+}
+
+.terminal-inicio{
+    width: 80%;
+    margin: -50px;  
+}
+/* transform: scale1.5 efeito zoom na imagem*/
+
+.terminal-burro{
+    width: auto;
+    padding-top: 20px;
+}
