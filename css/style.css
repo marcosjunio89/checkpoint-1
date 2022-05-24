@@ -1,54 +1,47 @@
-body{
-    background-color: gray;
-    font-family: 'Roboto', sans-serif
-    /* <p class="objeto-a-flutuar">Olá, estou flutuando!</p>
-
-<style>
-.objeto-a-flutuar:hover {
-    -webkit-transform: translateY(-8px);
-    -moz-transform: translateY(-8px);
-    -ms-transform: translateY(-8px);
-    -o-transform: translateY(-8px);
-    transform: translateY(-8px);
-}
-.objeto-a-flutuar {
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    -moz-transition: 0.5s;
-    transition: 0.5s;
-}
-</style> colocar a tag h1 escrito terminal em flutuando  */
+.cabecalho{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 60px;
+    position: absolute;
 }
 
-div{
-    text-align: center;
-    margin: auto;
-    width: 900px;
-    height: 130px;
-}
-
-h1{
-    font-size: 50px;
-}
-
-p{
-    font-size: 20px;
-    margin: -20px;
-    /* fazer a alteracao de alinhamento com o position:relative */
-}
-
-.terminal-inicio{
-    width: 80%;
-    margin: -50px;  
-}
-/* transform: scale1.5 efeito zoom na imagem*/
-
-.terminal-burro{
+.topo{
+    position: absolute;
+    left: 0%;
     width: auto;
-    padding-top: 20px;
+    height: 60px;
+}
+
+.inicio{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    background-color: rgb(234, 229, 229);
+    position: absolute;
+    top: 68px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.terminal{
+    width: 50%;
+}
+
+.macos{
+    width: 50%;
+    height: 80%;
+}
+
+.p-macos{
+    margin-top: -70px;
+    color: brown;
+}
+
+.ubuntu{
+    width: 45%;
+}
+
+.p-ubuntu{
+    margin-top: -7px;
+    color: brown;
 }
