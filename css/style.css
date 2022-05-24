@@ -7,7 +7,7 @@ body{
 .cabecalho{
     background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 90px;
+    height: 80px;
     position: fixed;
     z-index: 2;
 }
@@ -15,27 +15,38 @@ body{
 .topo{
     position: absolute;
     left: 0%;
-    width: 220px;
+    width: 200px;
     z-index: 1;
     
 }
 h1{
     color: white;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 #texto-header{
     color: white;
     margin-left: 50px;
-    margin-top: -23px;
+    margin-top: -25px;
 }
 header{
     background-color: rgb(48, 46, 46);
     width: 100%;
-    height: 80px;
+    height: 45px;
     position: fixed;
-    top: 90px;
+    top: 80px;
     z-index: 1;
+}
+.terminal{
+    width: 30%;
+}
+
+
+
+.terminal:hover{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .inicio{
@@ -49,34 +60,15 @@ header{
     
 }
 h2{
-    padding: 10px;
+    /* padding: 10px; */
+    /* margin-bottom: 50px; */
+    /* margin:20px ; */
+    text-align: center;
 }
 .paragrafos{
     max-width: 50%;
     margin: 20px auto;
 }
-
-.terminal{
-    width: 30%;
-}
-
-
-
-.terminal:hover{
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-}
-
-.macos{
-    width: 50%;
-    height: 80%;
-}
-
-.terminal-burro{
-    overflow: hidden;
-}
-
 .terminal-burro img{
     max-width: 100%;
     -moz-transition: all 0.3s;
@@ -89,25 +81,131 @@ h2{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+.terminal-burro{
+    overflow: hidden;
+}
+
+.img-terminal {
+
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px auto;
+    gap: 12px;
+    margin-top: 0px; 
+    margin-bottom: 150px;
+
+}
+
+
+.macos {
+
+    width: 25%;
+    height: fit-content;
+    margin-top: 24px;
+    padding: 32px 12px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+
+}
+.macos:hover {
+
+    transform: scale(1.03);
+    filter: brightness(120%);
+
+}
+
+/* .macos{
+    width: 30%;
+    height: 30%;
+    
+} */
+
 .p-macos{
     margin-top: -70px;
     color: brown;
 }
+.ubuntu {
 
-.ubuntu{
-    width: 45%;
+    width: 22%;
+    height: fit-content;
+    margin-top: 29px;
+    padding: 32px 12px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    margin-right: 35px;
+    
+
 }
+.ubuntu:hover {
+
+    transform: scale(1.03);
+    filter: brightness(120%);
+
+}
+/* .ubuntu{
+    width: 26%;
+    height: 26%;
+    margin-top: 18px;
+} */
 
 .p-ubuntu{
     margin-top: -7px;
     color: brown;
 }
+.janela {
 
-.janela{
-    width: 46%;
+    width: 22%;
+    height: fit-content;
+    margin-top: 27px;
+    padding: 32px 12px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+
 }
+.janela:hover {
+
+    transform: scale(1.03);
+    filter: brightness(120%);
+
+}
+
+/* .janela{
+    width: 27%;
+    height: 27%;
+    margin-top: 18px;
+} */
 
 .p-janela{
     margin-top: -7px;
     color: brown;
+}
+.video-title {
+
+    margin: 8px 0 12px;
+    color: white;
+
+}
+
+.video-description {
+
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+
+}
+
+footer{
+    background-color: rgb(160, 62, 62);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 2;
+    bottom: 0px;
+      
+}
+#footer-texto{
+    margin-top: 20px;
+    color: white;
+    margin-left: 30px;
 }
