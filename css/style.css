@@ -39,6 +39,9 @@ header{
 }
 .terminal{
     width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 
@@ -48,9 +51,12 @@ header{
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
+.lista-comandos{
+    text-align:left;
+ }
 
 .inicio{
-    text-align: center;
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     position: absolute;
@@ -97,6 +103,9 @@ h2{
 .terminal-burro{
     overflow: hidden;
 }
+.lista-comandos{
+    margin-left: 300px;
+}
 
 .img-terminal {
 
@@ -110,9 +119,7 @@ h2{
     margin-bottom: 150px;
 
 }
-.lista-comandos{
-    content: ;
-}
+
 
 .macos {
 
