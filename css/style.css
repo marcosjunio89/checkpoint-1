@@ -1,42 +1,47 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(234, 229, 229);
+}
 .cabecalho{
     background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 60px;
-    position: absolute;
+    height: 80px;
+    position: fixed;
+    z-index: 2;
 }
 
 .topo{
     position: absolute;
     left: 0%;
-    width: auto;
-    height: 60px;
+    width: 200px;
+    z-index: 1;
+    
 }
-
-.inicio{
+h1{
+    color: white;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    background-color: rgb(234, 229, 229);
-    position: absolute;
-    top: 68px;
+    margin-top: 0px;
+}
+#texto-header{
+    color: white;
+    margin-left: 50px;
+    margin-top: -25px;
+}
+header{
+    background-color: rgb(48, 46, 46);
     width: 100%;
-    box-sizing: border-box;
+    height: 45px;
+    position: fixed;
+    top: 80px;
+    z-index: 1;
 }
-
 .terminal{
-    width: 50%;
+    width: 30%;
 }
 
-.terminal{
-    overflow: hidden;
-}
 
-.terminal img{
-    max-width: 100%;
-    -moz-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-}
 
 .terminal:hover{
     -moz-transform: scale(1.2);
@@ -44,20 +49,44 @@
     transform: scale(1.2);
 }
 
-.macos{
-    width: 50%;
-    height: 80%;
+.inicio{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    
 }
-
-.terminal-burro{
-    overflow: hidden;
+h2{
+    /* padding: 10px; */
+    /* margin-bottom: 50px; */
+    /* margin:20px ; */
+    text-align: center;
 }
-
+.paragrafos{
+    max-width: 50%;
+    margin: 20px auto;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 2em;
+}
+#terminal-burro-img{
+    margin: 20px 20px 20px 260px
+}
+#p-terminal-burro{
+    text-align:center;
+    margin-right: 350px;
+    margin-top: 10px;
+}
 .terminal-burro img{
     max-width: 100%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+       
+    
 }
 
 .terminal-burro:hover{
@@ -65,25 +94,133 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-.p-macos{
-    margin-top: -70px;
-    color: brown;
+.terminal-burro{
+    overflow: hidden;
 }
 
-.ubuntu{
-    width: 45%;
+.img-terminal {
+
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px auto;
+    gap: 12px;
+    margin-top: 0px; 
+    margin-bottom: 150px;
+
 }
+.lista-comandos{
+    content: ;
+}
+
+.macos {
+
+    width: 25%;
+    height: fit-content;
+    margin-top: 24px;
+    padding: 32px 12px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+
+}
+.macos:hover {
+
+    transform: scale(1.03);
+    filter: brightness(120%);
+
+}
+
+/* .macos{
+    width: 30%;
+    height: 30%;
+    
+} */
+
+.p-macos{
+    margin: 8px 0px 12px;
+    color: brown;
+}
+.ubuntu {
+
+    width: 22%;
+    height: fit-content;
+    margin-top: 29px;
+    padding: 32px 12px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    margin-right: 35px;
+    
+
+}
+.ubuntu:hover {
+
+    transform: scale(1.03);
+    filter: brightness(120%);
+
+}
+/* .ubuntu{
+    width: 26%;
+    height: 26%;
+    margin-top: 18px;
+} */
 
 .p-ubuntu{
     margin-top: -7px;
     color: brown;
 }
+.janela {
 
-.janela{
-    width: 46%;
+    width: 22%;
+    height: fit-content;
+    margin-top: 27px;
+    padding: 32px 12px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+
 }
+.janela:hover {
+
+    transform: scale(1.03);
+    filter: brightness(120%);
+
+}
+
+/* .janela{
+    width: 27%;
+    height: 27%;
+    margin-top: 18px;
+} */
 
 .p-janela{
     margin-top: -7px;
     color: brown;
+}
+.video-title {
+
+    margin: 8px 0 12px;
+    color: white;
+
+}
+
+.video-description {
+
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+
+}
+
+footer{
+    background-color: rgb(160, 62, 62);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 2;
+    bottom: 0px;
+      
+}
+#footer-texto{
+    margin-top: 20px;
+    color: white;
+    margin-left: 30px;
 }
